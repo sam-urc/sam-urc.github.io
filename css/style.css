@@ -19,6 +19,11 @@ a {
     color: #fff;
 }
 
+img {
+	height: 150px;
+	width: 150px;
+}
+
 h1 {
 	font-size: 72px;
 	text-transform: uppercase;
