@@ -32,7 +32,7 @@ h1 {
 	letter-spacing: 8px;
 	text-align: center;
     margin: 0;
-    padding-top: 400px;
+    padding-top: 350px;
     line-height: 10%;
 }
 
@@ -309,7 +309,8 @@ nav {
 }
 
 h1 {
-    margin-left: -35px;
+    margin-left: 0px;
+    padding-top: 250px;
 }
 
 h2 {
@@ -401,7 +402,7 @@ nav {
 h1 {
     margin-left: 0px;
     font-size: 30px;
-    padding-top: 315px;
+    padding-top: 215px;
 }
 
 h2 {
