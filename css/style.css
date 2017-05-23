@@ -276,6 +276,16 @@ stroke-dashoffset:0
 	background-color: #C5BDC0;
 }
 
+@media screen and (max-width: 1920px) {
+
+.circles {
+	height: 480px;
+    padding-top: 40px;
+    display: inline-block;
+    margin-left:5vw;
+}
+
+}
 
 @media screen and (max-width: 900px) {
 
