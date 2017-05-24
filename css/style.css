@@ -32,7 +32,7 @@ h1 {
 	letter-spacing: 8px;
 	text-align: center;
     margin: 0;
-    padding-top: 400px;
+    padding-top: 350px;
     line-height: 10%;
 }
 
@@ -268,12 +268,14 @@ stroke-dashoffset:0
 }
 
 
+
 .footer {
 	text-align: center;
     padding: 20px 0px 50px 0px;
 	word-spacing: 30px;
 	letter-spacing:5px;
 	background-color: #C5BDC0;
+	font-size: 25px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -282,10 +284,11 @@ stroke-dashoffset:0
 	height: 480px;
     padding-top: 40px;
     display: inline-block;
-    margin-left:5vw;
+    margin-left:16vw;
 }
 
 }
+
 
 @media screen and (max-width: 900px) {
 
@@ -319,7 +322,8 @@ nav {
 }
 
 h1 {
-    margin-left: -35px;
+    margin-left: 0px;
+    padding-top: 245px;
 }
 
 h2 {
@@ -376,10 +380,10 @@ h2 {
 
   }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
 
 body {
-    width: 375px; }
+    width: 100vw; }
 
 header {
 	height:86vh;
@@ -394,6 +398,7 @@ nav {
     white-space: nowrap;
     height: 15px;
     font-size: 14px;
+    text-align: center;
 
 }
 
@@ -404,12 +409,13 @@ nav {
 	margin-top:4px;
 	z-index:3;
     margin-left: 5px;	
+    text-align: center;
 }
 
 h1 {
     margin-left: 0px;
     font-size: 30px;
-    padding-top: 315px;
+    padding-top: 215px;
 }
 
 h2 {
@@ -439,7 +445,7 @@ h3 {
 }
 
 .artwork {
-	height: 420px;
+	height: 100vw;
 	padding-top: 10px;
 	padding-left: 1%;
     text-align: center;
@@ -494,3 +500,125 @@ h3 {
 }
 
   }
+
+
+@media screen and (max-width: 320px) {
+
+body {
+    width: 100vw; }
+
+header {
+	height:86vh;
+}
+
+nav {
+    width: 100vw;
+    padding: 10px 0px 10px 0px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    white-space: nowrap;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.links {
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: 4px;
+	z-index: 3;
+    margin-left: 5px;	
+    text-align: center;
+}
+
+h1 {
+    margin-left: 0px;
+    font-size: 22px;
+    padding-top: 205px;
+}
+
+h2 {
+	margin-left: 0px;
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.about {
+	padding-left: 0%;
+	height: 580px;
+	width: 100vw;
+	padding-top: 10px;
+}	
+
+.photo_icon {
+	margin-left: 21%;
+}
+
+.about_text {
+	padding-top: 0px;
+	width: 90vw;
+	margin-left: 4%;
+}
+
+.artwork {
+	height: 400px;
+	padding-top: 10px;
+	padding-left: 1%;
+    text-align: center;
+}
+
+.art_boxes {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-left: 3px;
+
+}
+
+.art_boxes:nth-of-type(3n) {
+	margin-right: 0px;
+}
+
+.art_text {
+		width: 25%;
+	height: 25%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-left: 3px;
+}
+
+.art_text:nth-of-type(n+1) {
+	display: none;
+}
+
+.art_links {
+	display: inline-block;
+	width: 25%;
+	margin: 0 auto;
+	margin-right: 20px;
+	margin-left: 8px;
+	margin-bottom: 25px;
+
+}
+
+.art_links:nth-of-type(3n) {
+	margin-right: 0px;
+}
+
+.circles {
+    margin-left:0vw;
+    padding-top: 10px;
+}
+
+  }  
