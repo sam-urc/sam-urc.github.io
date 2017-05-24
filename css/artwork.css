@@ -158,10 +158,11 @@ nav {
 
 .footer {
 	text-align: center;
-    padding: 5px 0px 18px 0px;
+    padding: 20px 0px 50px 0px;
 	word-spacing: 30px;
 	letter-spacing:5px;
 	background-color: #C5BDC0;
+	font-size: 25px;
 }
 
 
